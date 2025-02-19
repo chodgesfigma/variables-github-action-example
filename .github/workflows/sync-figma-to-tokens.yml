@@ -1,10 +1,6 @@
 name: Sync Figma variables to tokens
 on:
   workflow_dispatch:
-    inputs:
-      file_key:
-        description: 'The file key of the Figma file to be updated'
-        required: true
 
 jobs:
   sync-figma-to-tokens:
