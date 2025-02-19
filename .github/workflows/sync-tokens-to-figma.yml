@@ -1,6 +1,9 @@
 name: Sync tokens to Figma
 on:
   workflow_dispatch:
+    inputs:
+      environment:
+        type: environment
 
 jobs:
   sync-tokens-to-figma:
